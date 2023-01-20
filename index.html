@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CV by Irina Tobolich</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__menu-burger">
+                <span></span>
+            </div>
+            <nav class="header__nav nav">
+                <ul class="nav__list">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#slider">Slider</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#lang">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="info">
+                <div class="info__wrap">
+                    <ul class="info__contacts contacts">
+                        <li class="contacts__name">Irina Tobolich</li>
+                        <p class="contacts__profession">Junior Front-End Developer</p>
+                        <li class="contacts__list">
+                            <a href="https://github.com/Irina-coud" target="_blank">GitHub</a>
+                            <a href="https://www.linkedin.com/in/irinatobolich/" target="_blank">Linkedin</a>
+                            <a href="mailto:irinatobolich313@gmail.com" target="_blank">GMail</a>
+                        </li>
+                    </ul>
+                    <figure class="info__photo">
+                        <img src="image/photo.jpg" alt="photo by Irina Tobolich">
+                    </figure>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="about__wrap">
+                    <h2 class="about__title">About me</h2>
+                    <p class="about__text">I am 30. I am ambitious, goal-oriented and hardworking person. A good team
+                        player and I have experience in team development.</p>
+                </div>
+            </section>
+            <section class="skills" id="skill">
+                <div class="skills__wrap">
+                    <h2 class="skills__title">Skills</h2>
+                    <ul class="skills__list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Basic TypeScript</li>
+                        <li>React / Redux Toolkit</li>
+                        <li>Git</li>
+                        <li>Avacode / Figma</li>
+                        <li>AntDesign / Material UI</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="education" id="education">
+                <div class="education__wrap">
+                    <h2 class="education__title">Education</h2>
+                    <ul class="education__list">
+                        <li>Belarusian State Technological University / Faculty of Engineering</li>
+                        <li>The Rolling Scopes School / JavaScript <a
+                                href="https://app.rs.school/certificate/tua574pl">Click to certificate</a></li>
+                        <li>The Rolling Scopes School / React JS <a
+                                href="https://app.rs.school/certificate/pfi7l16c">Click
+                                to certificate</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="slider" id="slider">
+                <div class="slider__container">
+                    <button class="slider__prev-btn">PREV</button>
+                    <div class="slider__wrap">
+                        <div class="slider__track">
+                            <img class="slider__item" src="image/slide1.webp" alt="slide1">
+                            <img class="slider__item" src="image/slide2.jpg" alt="slide2">
+                            <img class="slider__item" src="image/slide3.jpg" alt="slide3">
+                            <img class="slider__item" src="image/slide4.jpg" alt="slide4">
+                            <img class="slider__item" src="image/slide5.jpg" alt="slide5">
+                            <img class="slider__item" src="image/slide6.jpg" alt="slide6">
+                            <img class="slider__item" src="image/slide7.webp" alt="slide7">
+                        </div>
+                    </div>
+                    <button class="slider__next-btn">NEXT</button>
+                </div>
+            </section>
+            <section class="languages" id="lang">
+                <div class="languages__wrap">
+                    <h2 class="languages__title">Languages:</h2>
+                    <ul class="languages__list">
+                        <li>Russian (native)</li>
+                        <li>Polish (A2)</li>
+                        <li>English (A2+)</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="js/burger-menu.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>
